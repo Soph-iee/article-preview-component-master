@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+:root{
+--VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+--DesaturatedDarkBlue: hsl(214, 17%, 51%);
+--GrayishBlue: hsl(212, 23%, 69%);
+--LightGrayishBlue: hsl(210, 46%, 95%);
+--green: #ffffff;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+   }
+   
+   html{
+     font: 62.6% ; }
+   
+ body{
+     background-color: var(--LightGrayishBlue);
+     font-family: 'Manrope', sans-serif;
+     font-size:16px;
+     font-weight: 500;
+     color: var(--GrayishBlue);
+    
+   }
+   
+  .container{width: 25rem;
+  margin:4rem auto;
+  height: auto;
+  background-color:white;
+ display:flex;
+flex-direction: column;
+border-radius: 12px;
+  }
+  
+  .img-section img{
+    width:100%;
+    padding-bottom: 1rem;
+    border-radius: 12px;
+  }
+  .main-section{
+    padding:1rem 2rem;
+  }
+  .container h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    color: var(--VeryDarkGrayishBlue)
+    }
+    .container p{
+      line-height: 1.8;
+    }
+footer{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 2rem;
+ 
+ }
+.footer-img{
+  width: 40px;
+  height:40px;
+  border-radius: 50%;}
+ footer span {
+   display:none;
+ }
+ .footer{
+   display:flex;
+   flex-direction: column;
+ }
+ .footer h2 {
+   color: var(--VeryDarkGrayishBlue)
+ }
+
+ .share-icon {
+ 
+background-color: var(--LightGrayishBlue);
+   padding: 10px ;
+   border-radius: 50%;
+ }
+ .attribution{
+   position: fixed;
+   bottom: 0;
+   width:100%;
+   text-align: center;
+ }
+ 
+
+ 
+ .share-active{
+   background-color: var(--VeryDarkGrayishBlue);
+ display:flex;
+ flex-direction: row;
+   justify-content:space-evenly;
+   padding:1rem;
+   align-content: center;
+   border-radius:0 0 12px 12px ; 
+ }
+ .share-active p{
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 0.7rem;
+ }
+ .share-active img  
+{
+  margin-right: 1rem;
+}
+.share-active-img{
+  display:flex;
+  flex-direction: row;
+ 
+}
+    .display
+ {display:none;}
+ 
+ .share-active .share-icon{
+   filter: drop-shadow(-10)
+; }
